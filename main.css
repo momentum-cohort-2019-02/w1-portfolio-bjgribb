@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #7EB1D3;
+    color: #000000;
+    padding: 0rem 2rem;
+    /* justify-content: space-between; */
+    height: 100px;
+    line-height: 100px;
+    margin-bottom: 1rem;
+}
+
+a{
+    color: inherit;
+}
+
+main{
+    display: flex;
+    margin: 0 auto;
+}
+
+.mypic{
+    display:flex;
+    width: 50%;
+    border: solid black;
+}
+
+.mybio{
+    width: 50%;
+    border: solid black;
+}
+
+.name{
+    width: 60%;
+    flex-wrap: nowrap;
+}
+
+.header-links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%
+}
