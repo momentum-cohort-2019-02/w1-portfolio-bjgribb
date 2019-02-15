@@ -4,6 +4,83 @@
     padding: 0;
 }
 
+header{
+    padding-left: 1rem;
+    background: url('http://www.jimeoin.com/wp-content/uploads/2015/08/header-295-2.jpg') no-repeat center/cover;
+    color: #ffffff;
+    text-shadow: 2px 2px black;
+}
+
+header a{
+    color: #ffffff;
+    text-shadow: 2px 2px black;
+    text-decoration: none;
+}
+
+header a:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.name{
+    margin-bottom: 1rem;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mypic img{
+    width: 50%; 
+    object-fit: contain;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+
+.mybio-header{
+    margin-left: 1rem;
+    line-height: 2rem;
+}
+
+.mybio{
+    margin: 0 1rem;
+}
+
+.mybio:first-letter{
+    font-size: 20px;
+}
+
+.social-media{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.media-links{
+    padding-top: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.media-links img{
+    height: 32px;
+    width: 32px;
+}
+
+.media-links p{
+    height: 32px;
+    line-height: 32px;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+address{
+    margin: 1rem 1rem;
+}
+
+
+
 /* header{
     display: flex;
     flex-direction: row;
@@ -46,3 +123,4 @@
     justify-content: space-around;
     width: 40%;
 } */
+
