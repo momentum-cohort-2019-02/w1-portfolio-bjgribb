@@ -4,17 +4,23 @@
     padding: 0;
 }
 
+body{
+    background-color: #ECF0F1;
+}
+
 header {
     padding: 1rem 1rem;
-    background: url('http://www.jimeoin.com/wp-content/uploads/2015/08/header-295-2.jpg') no-repeat center/cover;
-    color: #ffffff;
+    margin-bottom: 1rem;
+    /* background: url('https://coverfiles.alphacoders.com/422/42209.jpg') no-repeat center/cover; */
+    background-color: #34495E;
+    color: #ECF0F1;
+    text-shadow: 2px 2px #1B2631;
     /* text-shadow: 2px 2px black; */
     text-align: center;
 }
 
 header a {
-    color: #ffffff;
-    text-shadow: 2px 2px black;
+    color: #ECF0F1;
     text-decoration: none;
 }
 
@@ -33,27 +39,27 @@ header a:hover {
     justify-content: space-around;
 }
 
+main{
+    margin: 0 1rem;
+    text-align: center;
+}
+
+
 .mypic {
     display: block;
     padding: 0 auto;
+    text-align: center;
 }
 
 .mypic img {
-    width: 50%;
+    width: 30%;
     object-fit: contain;
-    margin-top: 1rem;
-    border-radius: 10px;
-    max-width: 400px;
+    border-radius: 50%;
 }
 
-.mybio-header {
-    margin-left: 1rem;
+/* .mybio-header {
     line-height: 2rem;
-}
-
-.mybio {
-    margin: 0 1rem;
-}
+} */
 
 .mybio:first-letter {
     font-size: 1.5rem;
@@ -65,8 +71,8 @@ header a:hover {
 }
 
 .media-links {
-    padding-top: 1rem;
-    padding-right: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
     display: flex;
     justify-content: space-between;
 }
@@ -74,7 +80,6 @@ header a:hover {
 .media-links img {
     height: 32px;
     width: 32px;
-    margin-right: 1rem;
 }
 
 .media-links p {
@@ -101,12 +106,36 @@ address ul{
     margin-top: 1rem;
 }
 
-.media-links p{
+/* .media-links p{
     visibility: hidden;
-}
+} */
 
 .media-links a{
     display: flex;
+}
+
+/* Projects Page */
+
+.proj-header{
+    margin-top: 1rem;
+    border-bottom: 1px black solid;
+}
+
+.project img{
+    width: 75%;
+    margin-top: 1rem;
+    max-height: 300px;
+}
+
+main p{
+    margin-top: 1rem;
+}
+
+.proj-desc ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    list-style: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -115,7 +144,7 @@ address ul{
         display: flex;
         height: 50px;
         line-height: 50px;
-        box-shadow: 3px 3px 5px black;
+        box-shadow: 2px 2px 5px black;
     }
 
     .name {
@@ -135,8 +164,20 @@ address ul{
         list-style: none;
     }
 
-    .media-links p{
+    /* .media-links p{
         visibility: visible;
+    } */
+
+    /* Projects Page */
+
+    .project{
+        display: flex;
+    }
+
+    .project img{
+        width: 50%;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
     }
 
     /* .mypic{
