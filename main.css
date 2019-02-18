@@ -6,16 +6,16 @@
 
 body{
     background-color: #ECF0F1;
+    color: #1B2631;
+    font-family: futura;
 }
 
 header {
     padding: 1rem 1rem;
     margin-bottom: 1rem;
-    /* background: url('https://coverfiles.alphacoders.com/422/42209.jpg') no-repeat center/cover; */
     background-color: #34495E;
     color: #ECF0F1;
     text-shadow: 2px 2px #1B2631;
-    /* text-shadow: 2px 2px black; */
     text-align: center;
 }
 
@@ -37,11 +37,13 @@ header a:hover {
 .header-nav {
     display: flex;
     justify-content: space-around;
+    /* box-shadow: 2px 2px 5px black; */
 }
 
 main{
     margin: 0 1rem;
     text-align: center;
+    color: #1B2631;
 }
 
 
@@ -57,42 +59,47 @@ main{
     border-radius: 50%;
 }
 
-/* .mybio-header {
-    line-height: 2rem;
-} */
-
 .mybio:first-letter {
     font-size: 1.5rem;
 }
 
 .social-media {
-    margin-left: 1rem;
-    margin-top: 1rem;
+    margin: 1rem 1rem;
 }
 
 .media-links {
     margin-top: 1rem;
-    margin-right: 1rem;
     display: flex;
     justify-content: space-between;
 }
 
-.media-links img {
+/* .media-links img {
     height: 32px;
     width: 32px;
+} */
+
+i{
+    font-size: 2rem;
 }
 
-.media-links p {
-    height: 32px;
-    line-height: 32px;
-    font-family: monospace;
-    font-size: 16px;
+.media-links a{
+    background-color: #ECF0F1;
+    color: #34495E;
+    text-decoration: none;
+    height: 2rem;
+    width: 2rem;
+    justify-content: center;
 }
 
-.link{
+.media-links a:hover{
+    background-color: #34495E;
+    color: #ECF0F1;
+}
+
+/* .link{
     display:flex;
     justify-content: space-around;
-}
+} */
 
 address {
     margin: 1rem 1rem;
@@ -105,10 +112,6 @@ address ul{
     list-style: none;
     margin-top: 1rem;
 }
-
-/* .media-links p{
-    visibility: hidden;
-} */
 
 .media-links a{
     display: flex;
@@ -155,7 +158,6 @@ main p{
     .header-nav {
         width: 60%;
         align-content: right;
-        /* text-decoration: underline; */
     }
 
     address ul{
@@ -164,11 +166,7 @@ main p{
         list-style: none;
     }
 
-    /* .media-links p{
-        visibility: visible;
-    } */
-
-    /* Projects Page */
+    /* Projects 768px+ Page */
 
     .project{
         display: flex;
@@ -180,42 +178,4 @@ main p{
         margin-right: 1rem;
     }
 
-    /* .mypic{
-    max-width: 500px;
-} */
-
-
 }
-
-
-
-/* a{
-    color: inherit; 
-} */
-
-/* main{
-    display: flex;
-    margin: 0 auto;
-} */
-
-/* .mypic{
-    display:flex;
-    width: 50%;
-    border: solid black;
-} */
-
-/* .mybio{
-    width: 50%;
-    border: solid black;
-} */
-
-/* .name{
-    width: 100%;
-    flex-wrap: nowrap;
-} */
-
-/* .header-links{
-    display: flex;
-    justify-content: space-around;
-    width: 40%;
-} */
